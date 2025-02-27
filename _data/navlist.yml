@@ -4,10 +4,10 @@ docs:
   url: /
 
 - pagetitle: Papers
-  url: /soft-robotics-simulators.github.io/papers
+  url: /papers
 
 - pagetitle: Workshop
-  url: /soft-robotics-simulators.github.io/workshop
+  url: /workshop
 
 - pagetitle: Libraries
-  url: /soft-robotics-simulators.github.io/libraries  
+  url: /libraries  
