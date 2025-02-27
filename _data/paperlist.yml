@@ -1,0 +1,57 @@
+papers:
+
+- abstract: "When simulating soft robots, both their morphology and their controllers\
+    \ play\nimportant roles in task performance. This paper introduces a new method\
+    \ to\nco-evolve these two components in the same process. We do that by using\
+    \ the\nhyperNEAT algorithm to generate two separate neural networks in one pass,\
+    \ one\nresponsible for the design of the robot body structure and the other for\
+    \ the\ncontrol of the robot.\n  The key difference between our method and most\
+    \ existing approaches is that it\ndoes not treat the development of the morphology\
+    \ and the controller as separate\nprocesses. Similar to nature, our method derives\
+    \ both the \"brain\" and the\n\"body\" of an agent from a single genome and develops\
+    \ them together. While our\napproach is more realistic and doesn't require an\
+    \ arbitrary separation of\nprocesses during evolution, it also makes the problem\
+    \ more complex because the\nsearch space for this single genome becomes larger\
+    \ and any mutation to the\ngenome affects \"brain\" and the \"body\" at the same\
+    \ time.\n  Additionally, we present a new speciation function that takes into\n\
+    consideration both the genotypic distance, as is the standard for NEAT, and the\n\
+    similarity between robot bodies. By using this function, agents with very\ndifferent\
+    \ bodies are more likely to be in different species, this allows robots\nwith\
+    \ different morphologies to have more specialized controllers since they\nwon't\
+    \ crossover with other robots that are too different from them.\n  We evaluate\
+    \ the presented methods on four tasks and observe that even if the\nsearch space\
+    \ was larger, having a single genome makes the evolution process\nconverge faster\
+    \ when compared to having separated genomes for body and control.\nThe agents\
+    \ in our population also show morphologies with a high degree of\nregularity and\
+    \ controllers capable of coordinating the voxels to produce the\nnecessary movements."
+  authors:
+  - Fabio Tanaka
+  - Claus Aranha
+  bibtex: ' @inproceedings{Tanaka_2022, title={Co-evolving morphology and control
+    of soft robots using a single genome}, url={http://dx.doi.org/10.1109/ssci51031.2022.10022230},
+    DOI={10.1109/ssci51031.2022.10022230}, booktitle={2022 IEEE Symposium Series on
+    Computational Intelligence (SSCI)}, publisher={IEEE}, author={Tanaka, Fabio and
+    Aranha, Claus}, year={2022}, month=dec }
+
+    '
+  pdfurl: http://arxiv.org/pdf/2212.11517v1
+  title: Co-evolving morphology and control of soft robots using a single genome
+  year: 2022
+
+- authors:
+  - Xu Yin
+  - Zhi-Ying Gao
+  - Shuai Zhang
+  - Li-Yuan Zhang
+  - Guang-Kui Xu
+  bibtex: " @article{Yin_2020, title={Truncated regular octahedral tensegrity-based\
+    \ mechanical metamaterial with tunable and programmable Poisson\u2019s ratio},\
+    \ volume={167}, ISSN={0020-7403}, url={http://dx.doi.org/10.1016/j.ijmecsci.2019.105285},\
+    \ DOI={10.1016/j.ijmecsci.2019.105285}, journal={International Journal of Mechanical\
+    \ Sciences}, publisher={Elsevier BV}, author={Yin, Xu and Gao, Zhi-Ying and Zhang,\
+    \ Shuai and Zhang, Li-Yuan and Xu, Guang-Kui}, year={2020}, month=feb, pages={105285}\
+    \ }\n"
+  pdfurl: https://doi.org/10.1016/j.ijmecsci.2019.105285
+  title: Truncated regular octahedral tensegrity-based mechanical metamaterial with
+    tunable and programmable Poisson's ratio
+  year: 2020

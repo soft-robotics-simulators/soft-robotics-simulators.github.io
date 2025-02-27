@@ -1,0 +1,13 @@
+docs:
+
+- pagetitle: About
+  url: /
+
+- pagetitle: Papers
+  url: /soft-robotics-simulators.github.io/papers
+
+- pagetitle: Workshop
+  url: /soft-robotics-simulators.github.io/workshop
+
+- pagetitle: Libraries
+  url: /soft-robotics-simulators.github.io/libraries  

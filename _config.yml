@@ -1,0 +1,17 @@
+theme: jekyll-theme-cayman
+title: Soft Robotics Simulators
+description: This webpage is meant as a resource for the Soft Robotics Community
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+include:
+  - CONTRIBUTING.md
+  - index.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
