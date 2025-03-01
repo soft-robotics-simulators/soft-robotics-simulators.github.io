@@ -1,5 +1,57 @@
 papers:
 
+- abstract: 'Fast, accurate, and generalizable simulations are a key enabler of modern
+
+    advances in robot design and control. However, existing simulation frameworks
+
+    in robotics either model rigid environments and mechanisms only, or if they
+
+    include flexible or soft structures, suffer significantly in one or more of
+
+    these performance areas. To close this "sim2real" gap, we introduce DisMech, a
+
+    simulation environment that models highly dynamic motions of rod-like soft
+
+    continuum robots and structures, quickly and accurately, with arbitrary
+
+    connections between them. Our methodology combines a fully implicit discrete
+
+    differential geometry-based physics solver with fast and accurate contact
+
+    handling, all in an intuitive software interface. Crucially, we propose a
+
+    gradient descent approach to easily map the motions of hardware robot
+
+    prototypes to control inputs in DisMech. We validate DisMech through several
+
+    highly-nuanced soft robot simulations while demonstrating an order of magnitude
+
+    speed increase over previous state of the art. Our real2sim validation shows
+
+    high physical accuracy versus hardware, even with complicated soft actuation
+
+    mechanisms such as shape memory alloy wires. With its low computational cost,
+
+    physical accuracy, and ease of use, DisMech can accelerate translation of
+
+    sim-based control for both soft robotics and deformable object manipulation.'
+  authors:
+  - Andrew Choi
+  - Ran Jing
+  - Andrew Sabelhaus
+  - Mohammad Khalid Jawed
+  bibtex: " @article{Choi_2024, title={DisMech: A Discrete Differential Geometry-Based\
+    \ Physical Simulator for Soft Robots and Structures}, volume={9}, ISSN={2377-3774},\
+    \ url={http://dx.doi.org/10.1109/lra.2024.3365292}, DOI={10.1109/lra.2024.3365292},\
+    \ number={4}, journal={IEEE Robotics and Automation Letters}, publisher={Institute\
+    \ of Electrical and Electronics Engineers (IEEE)}, author={Choi, Andrew and Jing,\
+    \ Ran and Sabelhaus, Andrew P. and Jawed, Mohammad Khalid}, year={2024}, month=apr,\
+    \ pages={3483\u20133490} }\n"
+  pdfurl: http://arxiv.org/pdf/2311.18126v3
+  title: "DisMech A Discrete Differential Geometry\u2013based Physical Simulator for\
+    \ Soft Robots and Structures"
+  year: 2023
+
 - authors:
   - Eric Medvet
   - Alberto Bartoli
