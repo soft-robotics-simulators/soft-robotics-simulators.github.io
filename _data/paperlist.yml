@@ -1,6 +1,25 @@
 papers:
 
 - authors:
+  - Frederick Largilliere
+  - Valerian Verona
+  - Eulalie Coevoet
+  - Mario Sanz-Lopez
+  - Jeremie Dequidt
+  - Christian Duriez
+  bibtex: ' @inproceedings{Largilliere_2015, title={Real-time control of soft-robots
+    using asynchronous finite element modeling}, url={http://dx.doi.org/10.1109/icra.2015.7139541},
+    DOI={10.1109/icra.2015.7139541}, booktitle={2015 IEEE International Conference
+    on Robotics and Automation (ICRA)}, publisher={IEEE}, author={Largilliere, Frederick
+    and Verona, Valerian and Coevoet, Eulalie and Sanz-Lopez, Mario and Dequidt, Jeremie
+    and Duriez, Christian}, year={2015}, month=may }
+
+    '
+  pdfurl: https://doi.org/10.1109/icra.2015.7139541
+  title: Real-time control of soft-robots using asynchronous finite element modeling
+  year: 2015
+
+- authors:
   - Andrew Choi
   - Dezhong Tong
   - Mohammad K. Jawed
