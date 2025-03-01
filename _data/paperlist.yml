@@ -1,5 +1,43 @@
 papers:
 
+- abstract: 'Soft robots are notoriously hard to control. This is partly due to the
+
+    scarcity of models able to capture their complex continuum mechanics, resulting
+
+    in a lack of control methodologies that take full advantage of body compliance.
+
+    Currently available simulation methods are either too computational demanding
+
+    or overly simplistic in their physical assumptions, leading to a paucity of
+
+    available simulation resources for developing such control schemes. To address
+
+    this, we introduce Elastica, a free, open-source simulation environment for
+
+    soft, slender rods that can bend, twist, shear and stretch. We demonstrate how
+
+    Elastica can be coupled with five state-of-the-art reinforcement learning
+
+    algorithms to successfully control a soft, compliant robotic arm and complete
+
+    increasingly challenging tasks.'
+  authors:
+  - Noel Naughton
+  - Jiarui Sun
+  - Arman Tekinalp
+  - Girish Chowdhary
+  - Mattia Gazzola
+  bibtex: " @article{Naughton_2021, title={Elastica: A Compliant Mechanics Environment\
+    \ for Soft Robotic Control}, volume={6}, ISSN={2377-3774}, url={http://dx.doi.org/10.1109/lra.2021.3063698},\
+    \ DOI={10.1109/lra.2021.3063698}, number={2}, journal={IEEE Robotics and Automation\
+    \ Letters}, publisher={Institute of Electrical and Electronics Engineers (IEEE)},\
+    \ author={Naughton, Noel and Sun, Jiarui and Tekinalp, Arman and Parthasarathy,\
+    \ Tejaswin and Chowdhary, Girish and Gazzola, Mattia}, year={2021}, month=apr,\
+    \ pages={3389\u20133396} }\n"
+  pdfurl: http://arxiv.org/pdf/2009.08422v1
+  title: Elastica A compliant mechanics environment for soft robotic control
+  year: 2020
+
 - abstract: 'While significant research progress has been made in robot learning for
 
     control, unique challenges arise when simultaneously co-optimizing morphology.
