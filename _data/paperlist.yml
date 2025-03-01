@@ -1,5 +1,22 @@
 papers:
 
+- authors:
+  - Eric Medvet
+  - Alberto Bartoli
+  - Andrea De Lorenzo
+  - Stefano Seriani
+  bibtex: ' @article{Medvet_2020, title={2D-VSR-Sim: A simulation tool for the optimization
+    of 2-D voxel-based soft robots}, volume={12}, ISSN={2352-7110}, url={http://dx.doi.org/10.1016/j.softx.2020.100573},
+    DOI={10.1016/j.softx.2020.100573}, journal={SoftwareX}, publisher={Elsevier BV},
+    author={Medvet, Eric and Bartoli, Alberto and De Lorenzo, Andrea and Seriani,
+    Stefano}, year={2020}, month=jul, pages={100573} }
+
+    '
+  pdfurl: https://doi.org/10.1016/j.softx.2020.100573
+  title: "2D\u2013VSR\u2013Sim A simulation tool for the optimization of 2\u2013D\
+    \ voxel\u2013based soft robots"
+  year: 2020
+
 - abstract: 'Soft robots are notoriously hard to control. This is partly due to the
 
     scarcity of models able to capture their complex continuum mechanics, resulting
