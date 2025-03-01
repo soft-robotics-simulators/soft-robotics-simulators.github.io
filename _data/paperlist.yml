@@ -1,5 +1,54 @@
 papers:
 
+- abstract: 'Accurate frictional contact is critical in simulating the assembly of
+
+    rod-like structures in the practical world, such as knots, hairs, flagella, and
+
+    more. Due to their high geometric nonlinearity and elasticity, rod-on-rod
+
+    contact remains a challenging problem tackled by researchers in both
+
+    computational mechanics and computer graphics. Typically, frictional contact is
+
+    regarded as constraints for the equations of motions of a system. Such
+
+    constraints are often computed independently at every time step in a dynamic
+
+    simulation, thus slowing down the simulation and possibly introducing numerical
+
+    convergence issues. This paper proposes a fully implicit penalty-based
+
+    frictional contact method, Implicit Contact Model (IMC), that efficiently and
+
+    robustly captures accurate frictional contact responses. We showcase our
+
+    algorithm''s performance in achieving visually realistic results for the
+
+    challenging and novel contact scenario of flagella bundling in fluid medium, a
+
+    significant phenomenon in biology that motivates novel engineering applications
+
+    in soft robotics. In addition to this, we offer a side-by-side comparison with
+
+    Incremental Potential Contact (IPC), a state-of-the-art contact handling
+
+    algorithm. We show that IMC possesses comparable performance to IPC while
+
+    converging at a faster rate.'
+  authors:
+  - Dezhong Tong
+  - Andrew Choi
+  - Jungseock Joo
+  - M. Khalid Jawed
+  bibtex: "@article{Tong2022A,\n\ttitle={A Fully Implicit Method for Robust Frictional\
+    \ Contact Handling in Elastic Rods},\n\tauthor={Tong, Dezhong and Choi, Andrew\
+    \ and Joo, Jungseock and Khalid Jawed, M.},\n\tjournal={arXiv preprint arXiv:2205.10309v3},\n\
+    \tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2205.10309v3
+  title: A Fully Implicit Method for Robust Frictional Contact Handling in Elastic
+    Rods
+  year: 2022
+
 - abstract: 'Voxel-based soft robots (VSRs) are aggregations of soft blocks whose
     design
 
