@@ -1,5 +1,360 @@
 papers:
 
+- abstract: 'Both the design and control of a robot play equally important roles in
+    its
+
+    task performance. However, while optimal control is well studied in the machine
+
+    learning and robotics community, less attention is placed on finding the
+
+    optimal robot design. This is mainly because co-optimizing design and control
+
+    in robotics is characterized as a challenging problem, and more importantly, a
+
+    comprehensive evaluation benchmark for co-optimization does not exist. In this
+
+    paper, we propose Evolution Gym, the first large-scale benchmark for
+
+    co-optimizing the design and control of soft robots. In our benchmark, each
+
+    robot is composed of different types of voxels (e.g., soft, rigid, actuators),
+
+    resulting in a modular and expressive robot design space. Our benchmark
+
+    environments span a wide range of tasks, including locomotion on various types
+
+    of terrains and manipulation. Furthermore, we develop several robot
+
+    co-evolution algorithms by combining state-of-the-art design optimization
+
+    methods and deep reinforcement learning techniques. Evaluating the algorithms
+
+    on our benchmark platform, we observe robots exhibiting increasingly complex
+
+    behaviors as evolution progresses, with the best evolved designs solving many
+
+    of our proposed tasks. Additionally, even though robot designs are evolved
+
+    autonomously from scratch without prior knowledge, they often grow to resemble
+
+    existing natural creatures while outperforming hand-designed robots.
+
+    Nevertheless, all tested algorithms fail to find robots that succeed in our
+
+    hardest environments. This suggests that more advanced algorithms are required
+
+    to explore the high-dimensional design space and evolve increasingly
+
+    intelligent robots -- an area of research in which we hope Evolution Gym will
+
+    accelerate progress. Our website with code, environments, documentation, and
+
+    tutorials is available at http://evogym.csail.mit.edu.'
+  authors:
+  - Jagdeep Singh Bhatia
+  - Holly Jackson
+  - Yunsheng Tian
+  - Jie Xu
+  - Wojciech Matusik
+  bibtex: "@article{Singh Bhatia2022Evolution,\n\ttitle={Evolution Gym A Large\u2013\
+    Scale Benchmark for Evolving Soft Robots},\n\tauthor={Singh Bhatia, Jagdeep and\
+    \ Jackson, Holly and Tian, Yunsheng and Xu, Jie and Matusik, Wojciech},\n\tjournal={arXiv\
+    \ preprint arXiv:2201.09863v1},\n\tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2201.09863v1
+  title: "Evolution Gym A Large\u2013Scale Benchmark for Evolving Soft Robots"
+  year: 2022
+
+- abstract: 'Fast, accurate, and generalizable simulations are a key enabler of modern
+
+    advances in robot design and control. However, existing simulation frameworks
+
+    in robotics either model rigid environments and mechanisms only, or if they
+
+    include flexible or soft structures, suffer significantly in one or more of
+
+    these performance areas. To close this "sim2real" gap, we introduce DisMech, a
+
+    simulation environment that models highly dynamic motions of rod-like soft
+
+    continuum robots and structures, quickly and accurately, with arbitrary
+
+    connections between them. Our methodology combines a fully implicit discrete
+
+    differential geometry-based physics solver with fast and accurate contact
+
+    handling, all in an intuitive software interface. Crucially, we propose a
+
+    gradient descent approach to easily map the motions of hardware robot
+
+    prototypes to control inputs in DisMech. We validate DisMech through several
+
+    highly-nuanced soft robot simulations while demonstrating an order of magnitude
+
+    speed increase over previous state of the art. Our real2sim validation shows
+
+    high physical accuracy versus hardware, even with complicated soft actuation
+
+    mechanisms such as shape memory alloy wires. With its low computational cost,
+
+    physical accuracy, and ease of use, DisMech can accelerate translation of
+
+    sim-based control for both soft robotics and deformable object manipulation.'
+  authors:
+  - Andrew Choi
+  - Ran Jing
+  - Andrew Sabelhaus
+  - Mohammad Khalid Jawed
+  bibtex: " @article{Choi_2024, title={DisMech: A Discrete Differential Geometry-Based\
+    \ Physical Simulator for Soft Robots and Structures}, volume={9}, ISSN={2377-3774},\
+    \ url={http://dx.doi.org/10.1109/lra.2024.3365292}, DOI={10.1109/lra.2024.3365292},\
+    \ number={4}, journal={IEEE Robotics and Automation Letters}, publisher={Institute\
+    \ of Electrical and Electronics Engineers (IEEE)}, author={Choi, Andrew and Jing,\
+    \ Ran and Sabelhaus, Andrew P. and Jawed, Mohammad Khalid}, year={2024}, month=apr,\
+    \ pages={3483\u20133490} }\n"
+  pdfurl: http://arxiv.org/pdf/2311.18126v3
+  title: "DisMech A Discrete Differential Geometry\u2013based Physical Simulator for\
+    \ Soft Robots and Structures"
+  year: 2023
+
+- authors:
+  - Eric Medvet
+  - Alberto Bartoli
+  - Andrea De Lorenzo
+  - Stefano Seriani
+  bibtex: ' @article{Medvet_2020, title={2D-VSR-Sim: A simulation tool for the optimization
+    of 2-D voxel-based soft robots}, volume={12}, ISSN={2352-7110}, url={http://dx.doi.org/10.1016/j.softx.2020.100573},
+    DOI={10.1016/j.softx.2020.100573}, journal={SoftwareX}, publisher={Elsevier BV},
+    author={Medvet, Eric and Bartoli, Alberto and De Lorenzo, Andrea and Seriani,
+    Stefano}, year={2020}, month=jul, pages={100573} }
+
+    '
+  pdfurl: https://doi.org/10.1016/j.softx.2020.100573
+  title: "2D\u2013VSR\u2013Sim A simulation tool for the optimization of 2\u2013D\
+    \ voxel\u2013based soft robots"
+  year: 2020
+
+- abstract: 'Soft robots are notoriously hard to control. This is partly due to the
+
+    scarcity of models able to capture their complex continuum mechanics, resulting
+
+    in a lack of control methodologies that take full advantage of body compliance.
+
+    Currently available simulation methods are either too computational demanding
+
+    or overly simplistic in their physical assumptions, leading to a paucity of
+
+    available simulation resources for developing such control schemes. To address
+
+    this, we introduce Elastica, a free, open-source simulation environment for
+
+    soft, slender rods that can bend, twist, shear and stretch. We demonstrate how
+
+    Elastica can be coupled with five state-of-the-art reinforcement learning
+
+    algorithms to successfully control a soft, compliant robotic arm and complete
+
+    increasingly challenging tasks.'
+  authors:
+  - Noel Naughton
+  - Jiarui Sun
+  - Arman Tekinalp
+  - Girish Chowdhary
+  - Mattia Gazzola
+  bibtex: " @article{Naughton_2021, title={Elastica: A Compliant Mechanics Environment\
+    \ for Soft Robotic Control}, volume={6}, ISSN={2377-3774}, url={http://dx.doi.org/10.1109/lra.2021.3063698},\
+    \ DOI={10.1109/lra.2021.3063698}, number={2}, journal={IEEE Robotics and Automation\
+    \ Letters}, publisher={Institute of Electrical and Electronics Engineers (IEEE)},\
+    \ author={Naughton, Noel and Sun, Jiarui and Tekinalp, Arman and Parthasarathy,\
+    \ Tejaswin and Chowdhary, Girish and Gazzola, Mattia}, year={2021}, month=apr,\
+    \ pages={3389\u20133396} }\n"
+  pdfurl: http://arxiv.org/pdf/2009.08422v1
+  title: Elastica A compliant mechanics environment for soft robotic control
+  year: 2020
+
+- abstract: 'While significant research progress has been made in robot learning for
+
+    control, unique challenges arise when simultaneously co-optimizing morphology.
+
+    Existing work has typically been tailored for particular environments or
+
+    representations. In order to more fully understand inherent design and
+
+    performance tradeoffs and accelerate the development of new breeds of soft
+
+    robots, a comprehensive virtual platform with well-established tasks,
+
+    environments, and evaluation metrics is needed. In this work, we introduce
+
+    SoftZoo, a soft robot co-design platform for locomotion in diverse
+
+    environments. SoftZoo supports an extensive, naturally-inspired material set,
+
+    including the ability to simulate environments such as flat ground, desert,
+
+    wetland, clay, ice, snow, shallow water, and ocean. Further, it provides a
+
+    variety of tasks relevant for soft robotics, including fast locomotion, agile
+
+    turning, and path following, as well as differentiable design representations
+
+    for morphology and control. Combined, these elements form a feature-rich
+
+    platform for analysis and development of soft robot co-design algorithms. We
+
+    benchmark prevalent representations and co-design algorithms, and shed light on
+
+    1) the interplay between environment, morphology, and behavior; 2) the
+
+    importance of design space representations; 3) the ambiguity in muscle
+
+    formation and controller synthesis; and 4) the value of differentiable physics.
+
+    We envision that SoftZoo will serve as a standard platform and template an
+
+    approach toward the development of novel representations and algorithms for
+
+    co-designing soft robots'' behavioral and morphological intelligence.'
+  authors:
+  - Tsun-Hsuan Wang
+  - Pingchuan Ma
+  - Andrew Everett Spielberg
+  - Zhou Xian
+  - Hao Zhang
+  - Joshua B. Tenenbaum
+  - Daniela Rus
+  - Chuang Gan
+  bibtex: "@article{Wang2023SoftZoo:,\n\ttitle={SoftZoo A Soft Robot Co\u2013design\
+    \ Benchmark For Locomotion In Diverse Environments},\n\tauthor={Wang, Tsun-Hsuan\
+    \ and Ma, Pingchuan and Everett Spielberg, Andrew and Xian, Zhou and Zhang, Hao\
+    \ and B. Tenenbaum, Joshua and Rus, Daniela and Gan, Chuang},\n\tjournal={arXiv\
+    \ preprint arXiv:2303.09555v1},\n\tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2303.09555v1
+  title: "SoftZoo A Soft Robot Co\u2013design Benchmark For Locomotion In Diverse\
+    \ Environments"
+  year: 2023
+
+- abstract: 'Accurate frictional contact is critical in simulating the assembly of
+
+    rod-like structures in the practical world, such as knots, hairs, flagella, and
+
+    more. Due to their high geometric nonlinearity and elasticity, rod-on-rod
+
+    contact remains a challenging problem tackled by researchers in both
+
+    computational mechanics and computer graphics. Typically, frictional contact is
+
+    regarded as constraints for the equations of motions of a system. Such
+
+    constraints are often computed independently at every time step in a dynamic
+
+    simulation, thus slowing down the simulation and possibly introducing numerical
+
+    convergence issues. This paper proposes a fully implicit penalty-based
+
+    frictional contact method, Implicit Contact Model (IMC), that efficiently and
+
+    robustly captures accurate frictional contact responses. We showcase our
+
+    algorithm''s performance in achieving visually realistic results for the
+
+    challenging and novel contact scenario of flagella bundling in fluid medium, a
+
+    significant phenomenon in biology that motivates novel engineering applications
+
+    in soft robotics. In addition to this, we offer a side-by-side comparison with
+
+    Incremental Potential Contact (IPC), a state-of-the-art contact handling
+
+    algorithm. We show that IMC possesses comparable performance to IPC while
+
+    converging at a faster rate.'
+  authors:
+  - Dezhong Tong
+  - Andrew Choi
+  - Jungseock Joo
+  - M. Khalid Jawed
+  bibtex: "@article{Tong2022A,\n\ttitle={A Fully Implicit Method for Robust Frictional\
+    \ Contact Handling in Elastic Rods},\n\tauthor={Tong, Dezhong and Choi, Andrew\
+    \ and Joo, Jungseock and Khalid Jawed, M.},\n\tjournal={arXiv preprint arXiv:2205.10309v3},\n\
+    \tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2205.10309v3
+  title: A Fully Implicit Method for Robust Frictional Contact Handling in Elastic
+    Rods
+  year: 2022
+
+- abstract: 'Voxel-based soft robots (VSRs) are aggregations of soft blocks whose
+    design
+
+    is amenable to optimization. We here present a software, 2D-VSR-Sim, for
+
+    facilitating research concerning the optimization of VSRs body and brain. The
+
+    software, written in Java, provides consistent interfaces for all the VSRs
+
+    aspects suitable for optimization and considers by design the presence of
+
+    sensing, i.e., the possibility of exploiting the feedback from the environment
+
+    for controlling the VSR. We experimentally characterize, from a mechanical
+
+    point of view, the VSRs that can be simulated with 2D-VSR-Sim and we discuss
+
+    the computational burden of the simulation. Finally, we show how 2D-VSR-Sim can
+
+    be used to repeat the experiments of significant previous studies and, in
+
+    perspective, to provide experimental answers to a variety of research
+
+    questions.'
+  authors:
+  - Eric Medvet
+  - Alberto Bartoli
+  - Andrea De Lorenzo
+  - Stefano Seriani
+  bibtex: "@article{Medvet2020Design,\n\ttitle={Design, Validation, and Case Studies\
+    \ of 2D-VSR-Sim, an Optimization-friendly Simulator of 2-D Voxel-based Soft Robots},\n\
+    \tauthor={Medvet, Eric and Bartoli, Alberto and De Lorenzo, Andrea and Seriani,\
+    \ Stefano},\n\tjournal={arXiv preprint arXiv:2001.08617v2},\n\tyear={2020} }"
+  pdfurl: http://arxiv.org/pdf/2001.08617v2
+  title: Design, Validation, and Case Studies of 2D-VSR-Sim, an Optimization-friendly
+    Simulator of 2-D Voxel-based Soft Robots
+  year: 2020
+
+- authors:
+  - Frederick Largilliere
+  - Valerian Verona
+  - Eulalie Coevoet
+  - Mario Sanz-Lopez
+  - Jeremie Dequidt
+  - Christian Duriez
+  bibtex: ' @inproceedings{Largilliere_2015, title={Real-time control of soft-robots
+    using asynchronous finite element modeling}, url={http://dx.doi.org/10.1109/icra.2015.7139541},
+    DOI={10.1109/icra.2015.7139541}, booktitle={2015 IEEE International Conference
+    on Robotics and Automation (ICRA)}, publisher={IEEE}, author={Largilliere, Frederick
+    and Verona, Valerian and Coevoet, Eulalie and Sanz-Lopez, Mario and Dequidt, Jeremie
+    and Duriez, Christian}, year={2015}, month=may }
+
+    '
+  pdfurl: https://doi.org/10.1109/icra.2015.7139541
+  title: Real-time control of soft-robots using asynchronous finite element modeling
+  year: 2015
+
+- authors:
+  - Andrew Choi
+  - Dezhong Tong
+  - Mohammad K. Jawed
+  - Jungseock Joo
+  bibtex: ' @article{Choi_2021, title={Implicit Contact Model for Discrete Elastic
+    Rods in Knot Tying}, volume={88}, ISSN={1528-9036}, url={http://dx.doi.org/10.1115/1.4050238},
+    DOI={10.1115/1.4050238}, number={5}, journal={Journal of Applied Mechanics}, publisher={ASME
+    International}, author={Choi, Andrew and Tong, Dezhong and Jawed, Mohammad K.
+    and Joo, Jungseock}, year={2021}, month=mar }
+
+    '
+  pdfurl: https://doi.org/10.1115/1.4050238
+  title: Implicit Contact Model for Discrete Elastic Rods in Knot Tying
+  year: 2021
+
 - abstract: "When simulating soft robots, both their morphology and their controllers\
     \ play\nimportant roles in task performance. This paper introduces a new method\
     \ to\nco-evolve these two components in the same process. We do that by using\
