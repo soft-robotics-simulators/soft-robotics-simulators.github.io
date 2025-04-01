@@ -1,7 +1,7 @@
 # Libraries & source code
 
 ---
-### EvoGyum
+### EvoGym
 
 
 ---
