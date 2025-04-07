@@ -23,8 +23,8 @@ Resources
 * [Tutorials](https://softroboticstoolkit.com/sofa/tutorial)
 * [Demos](https://softroboticstoolkit.com/projects)
 * [Paper](https://softroboticstoolkit.com/publications/control-elastic-soft-robots-based-real-time-finite-element-method)
----
 
+---
 ### SoftZoo
 SoftZoo is a soft robot co-design platform for locomotion in diverse environments that supports an extensive, naturally-inspired material set, including the ability to simulate environments such as flat ground, desert, wetland, clay, ice, snow, shallow water, and ocean. SoftZoo provides a variety of tasks relevant for soft robotics, including fast locomotion, agile turning, and path following, as well as differentiable design representations for morphology and control.
 With this platform, it is possible to use a wide variety of prevalent representations and co-design algorithms, including control optimization with differentiable physics and reinforcement learning, as well as co-design with evolutionary algorithms.
@@ -43,4 +43,5 @@ Resources
 Resources
 * [Home Page](https://github.com/ericmedvet/2d-robot-evolution)
 * [Paper](https://medvet.inginf.units.it/publications/2020-j-mbds-vsr/)
+
 ---
