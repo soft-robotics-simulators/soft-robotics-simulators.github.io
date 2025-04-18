@@ -1,5 +1,23 @@
 papers:
 
+- authors:
+  - Moritz A. Graule
+  - Clark B. Teeple
+  - Thomas P. McCarthy
+  - Grace R. Kim
+  - Randall C. St. Louis
+  - Robert J. Wood
+  bibtex: " @inproceedings{Graule_2021, title={SoMo: Fast and Accurate Simulations\
+    \ of Continuum Robots in Complex Environments}, url={http://dx.doi.org/10.1109/iros51168.2021.9636059},\
+    \ DOI={10.1109/iros51168.2021.9636059}, booktitle={2021 IEEE/RSJ International\
+    \ Conference on Intelligent Robots and Systems (IROS)}, publisher={IEEE}, author={Graule,\
+    \ Moritz A. and Teeple, Clark B. and McCarthy, Thomas P. and Kim, Grace R. and\
+    \ St. Louis, Randall C. and Wood, Robert J.}, year={2021}, month=sep, pages={3934\u2013\
+    3941} }\n"
+  pdfurl: https://doi.org/10.1109/iros51168.2021.9636059
+  title: SoMo Fast and Accurate Simulations of Continuum Robots in Complex Environments
+  year: 2021
+
 - abstract: 'Both the design and control of a robot play equally important roles in
     its
 
