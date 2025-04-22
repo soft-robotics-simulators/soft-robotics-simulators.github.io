@@ -9,6 +9,7 @@
 6. [2D-MR-Sim](#2D-MR-Sim)
 7. [DisMech](#DisMech)
 8. [SoftZoo](#SoftZoo)
+9. [VoxCraft](#VoxCraft)
 
 ---
 ### EvoGym <a name="EvoGym"></a>
@@ -94,3 +95,12 @@ Resources
 * [Install](https://github.com/zswang666/softzoo)
 * [Demos](https://sites.google.com/view/softzoo-iclr-2023/safari)
 * [Paper](https://openreview.net/forum?id=Xyme9p1rpZw)
+
+---
+### VoxCraft <a name="VoxCraft"></a>
+VoxCraft is a GPU-accelerated voxel-based physics engine. A voxel is a hollow silicone block that can expand and contract in volume. When multiple voxels are attached together they become a robot: a voxelbot. VoxCraft allows you to test robot designs before constructing them in real life. 
+
+Resources
+* [Home Page](https://voxcraft.github.io/)
+* [Install](https://github.com/voxcraft/voxcraft-sim)
+* [Documentation](https://voxcraft.readthedocs.io/en/latest/)

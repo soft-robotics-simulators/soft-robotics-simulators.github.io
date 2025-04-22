@@ -10,3 +10,7 @@ April 13th, 2025 | By Thomas Breimer
 April 18th, 2025 | By Thomas Breimer 
 - Added SoMo to papers and libraries
 - Added table of contents to libraries
+
+### Add VoxCraft
+April 22nd, 2025 | By Thomas Breimer 
+- Added VoxCraft to libraries
