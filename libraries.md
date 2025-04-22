@@ -74,3 +74,12 @@ Resources
 * [Home Page/Examples](https://github.com/taichi-dev/difftaichi)
 * [Install](https://github.com/yuanming-hu/taichi)
 * [Paper](https://arxiv.org/abs/1910.00935)
+
+---
+### VoxCraft
+VoxCraft is a GPU-accelerated voxel-based physics engine. A voxel is a hollow silicone block that can expand and contract in volume. When multiple voxels are attached together they become a robot: a voxelbot. VoxCraft allows you to test robot designs before constructing them in real life. 
+
+Resources
+* [Home Page](https://voxcraft.github.io/)
+* [Install](https://github.com/voxcraft/voxcraft-sim)
+* [Documentation](https://voxcraft.readthedocs.io/en/latest/)
