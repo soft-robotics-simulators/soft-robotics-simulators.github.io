@@ -14,3 +14,8 @@ April 18th, 2025 | By Thomas Breimer
 ### Add VoxCraft
 April 22nd, 2025 | By Thomas Breimer 
 - Added VoxCraft to libraries
+
+### Add Sims Suggested by Mike Michelis
+May 24th, 2025 | By Thomas Breimer
+- Added DiffPD, DiffVineSim, IPC, GradSim, Warp
+- Alphabetize libraries.md

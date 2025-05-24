@@ -13,6 +13,7 @@ We provide the following resources:
 
 # Main Contributors
 - John Rieffel, Union College
+- Thomas Breimer, Union College
 
 # Contributing
 
