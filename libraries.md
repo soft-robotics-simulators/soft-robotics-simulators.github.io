@@ -97,7 +97,7 @@ Resources
 * [Paper](https://openreview.net/pdf?id=c_E8kFWfhp0)
 
 ---
-### Sim <a name="IPC"></a>
+### IPC <a name="IPC"></a>
 IPC (Incremental Potential Contact) is a simulator which focuses on variationally solving implicitly time-stepped nonlinear elastodynamics. By allowing the user to select accuracy tolerances, desired accuracies for a simulation’s dynamics and geometry may be decoupled. Employing an implicit time-stepping method, the custom nonlinear solver addresses contact problems that are intersectionfree, inversion-free, and accurate, with speeds comparable to or faster than available methods that lack both convergence and feasibility. 
 
 Resources
