@@ -2,7 +2,8 @@
 
 ## Contents
 1. [2D-MR-Sim](#2D-MR-Sim)
-2. [DiffPD](#DiffPD)
+2. [AgentFEM Morph Lab](#AgentFEM-Morph-Lab)
+3. [DiffPD](#DiffPD)
 3. [DiffTaiChi](#DiffTaiChi) 
 4. [DiffVineSim](#DiffVineSim)
 5. [DisMech](#DisMech)
@@ -24,6 +25,16 @@
 Resources
 * [Home Page/Code](https://github.com/ericmedvet/2d-robot-evolution)
 * [Paper](https://medvet.inginf.units.it/publications/2020-j-mbds-vsr/)
+
+---
+### AgentFEM Morph Lab <a name="AgentFEM-Morph-Lab"></a>
+
+AgentFEM Morph Lab is a browser-based tool for exploring planar, quasi-static soft rods and bounded inverse design. Users can drag an endpoint or draw a centerline target, adjust intrinsic-curvature actuation zones, and inspect the resulting shape. The companion repository provides a numerical rod solver, inverse-design examples and branch-conditioned neural baselines. The browser uses mechanics and optimization rather than the released neural weights. Its scope is contact-free planar rods, not general robot dynamics or hardware control.
+
+Resources
+* [Interactive Lab](https://lab.haoming-luo.com/morph/)
+* [Solver and Model Code](https://huggingface.co/HaomingLuo/AgentFEM-Morph-Rod-Surrogates)
+* [Dataset](https://huggingface.co/datasets/HaomingLuo/AgentFEM-Programmable-Soft-Rods)
 
 ---
 ### DiffPD <a name="DiffPD"></a>

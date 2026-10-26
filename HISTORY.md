@@ -19,3 +19,7 @@ April 22nd, 2025 | By Thomas Breimer
 May 24th, 2025 | By Thomas Breimer
 - Added DiffPD, DiffVineSim, IPC, GradSim, Warp
 - Alphabetize libraries.md
+
+### Add AgentFEM Morph Lab
+October 27th, 2026 | By Haoming Luo
+- Added the planar quasi-static rod lab, companion solver and dataset to libraries.
